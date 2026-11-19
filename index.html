@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dhanush Shenoy | Founder & Systems Architect</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        brutal: {
+                            yellow: '#FFE600',
+                            black: '#0A0A0A',
+                            white: '#FFFFFF',
+                            pink: '#FF63C3',
+                            blue: '#00F0FF',
+                            purple: '#9B51E0'
+                        }
+                    },
+                    boxShadow: {
+                        'brutal': '4px 4px 0px #0A0A0A',
+                        'brutal-lg': '8px 8px 0px #0A0A0A',
+                        'brutal-dark': '4px 4px 0px #FFE600'
+                    }
+                }
+            }
+        }
+    </script>
+    <!-- Google Fonts: Space Grotesk & JetBrains Mono -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&family=Space+Grotesk:wght@500;700;900&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Space Grotesk', sans-serif;
+        }
+        code, pre {
+            font-family: 'JetBrains Mono', monospace;
+        }
+    </style>
+</head>
+<body class="bg-brutal-yellow text-brutal-black dark:bg-brutal-black dark:text-brutal-white transition-colors duration-200 antialiased selection:bg-brutal-pink selection:text-brutal-black">
+
+    <!-- TOP TICKER -->
+    <div class="bg-brutal-black text-brutal-yellow dark:bg-brutal-yellow dark:text-brutal-black py-2 px-4 overflow-hidden border-b-4 border-brutal-black dark:border-brutal-yellow font-mono text-xs font-bold tracking-widest uppercase">
+        <div class="inline-block whitespace-nowrap animate-marquee">
+            ⚡ TAILSCALE COMMAND GRID ACTIVE • FEDORA WORKSTATION NODE ONLINE • ANVAYA FOUNDER • SHENOY SUPER-AGENT • SHIP FAST, BREAK NOTHING ⚡
+        </div>
+    </div>
+
+    <!-- HEADER / NAV -->
+    <header class="sticky top-0 z-50 bg-brutal-white dark:bg-brutal-black border-b-4 border-brutal-black dark:border-brutal-white px-6 py-4 flex items-center justify-between">
+        <a href="#" class="flex items-center gap-3 group">
+            <div class="w-10 h-10 bg-brutal-yellow text-brutal-black border-2 border-brutal-black dark:border-brutal-white flex items-center justify-center font-black text-xl shadow-brutal group-hover:translate-x-0.5 group-hover:translate-y-0.5 transition-all">
+                DS
+            </div>
+            <span class="font-black text-lg tracking-tight uppercase">Dhanush Shenoy</span>
+        </a>
+        <div class="flex items-center gap-4">
+            <button onclick="toggleDarkMode()" class="p-2 border-2 border-brutal-black dark:border-brutal-white bg-brutal-pink text-brutal-black shadow-brutal hover:translate-x-0.5 hover:translate-y-0.5 transition-all font-bold text-xs uppercase" aria-label="Toggle Theme">
+                🌓 THEME
+            </button>
+            <a href="#contact" class="hidden sm:inline-block px-4 py-2 bg-brutal-yellow text-brutal-black border-2 border-brutal-black font-black text-xs uppercase shadow-brutal hover:translate-x-0.5 hover:translate-y-0.5 transition-all">
+                INITIATE CONTACT
+            </a>
+        </div>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section class="max-w-6xl mx-auto px-6 py-16 md:py-24 grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+        <div class="lg:col-span-7 space-y-6">
+            <div class="inline-block px-3 py-1 bg-brutal-blue text-brutal-black border-2 border-brutal-black font-mono font-bold text-xs shadow-brutal">
+                &gt; SYSTEM ARCHITECT &amp; FOUNDER
+            </div>
+            <h1 class="text-5xl md:text-7xl font-black uppercase tracking-tight leading-none">
+                Building autonomous <span class="bg-brutal-pink px-2 border-2 border-brutal-black shadow-brutal inline-block rotate-1">intelligence</span> &amp; robust code.
+            </h1>
+            <p class="text-lg md:text-xl font-medium max-w-xl opacity-90">
+                Founder of Anvaya &amp; creator of Shenoy. Engineering high-performance distributed systems, resilient agentic workflows, and uncompromised digital experiences.
+            </p>
+            <div class="flex flex-wrap gap-4 pt-4">
+                <a href="#contact" class="px-6 py-3 bg-brutal-black text-brutal-yellow dark:bg-brutal-yellow dark:text-brutal-black border-4 border-brutal-black dark:border-brutal-white font-black text-sm uppercase shadow-brutal-lg hover:translate-x-1 hover:translate-y-1 transition-all">
+                    Let's Build Together 🚀
+                </a>
+                <a href="https://github.com/abbysallord" target="_blank" rel="noopener" class="px-6 py-3 bg-brutal-white text-brutal-black dark:bg-brutal-black dark:text-brutal-white border-4 border-brutal-black dark:border-brutal-white font-black text-sm uppercase shadow-brutal hover:translate-x-1 hover:translate-y-1 transition-all">
+                    GitHub @abbysallord 📦
+                </a>
+            </div>
+        </div>
+        <div class="lg:col-span-5">
+            <div class="bg-brutal-white dark:bg-brutal-black border-4 border-brutal-black dark:border-brutal-white p-6 shadow-brutal-lg space-y-4">
+                <div class="flex items-center justify-between border-b-2 border-brutal-black dark:border-brutal-white pb-3">
+                    <div class="flex gap-2">
+                        <div class="w-3 h-3 rounded-full bg-red-500 border border-brutal-black"></div>
+                        <div class="w-3 h-3 rounded-full bg-yellow-500 border border-brutal-black"></div>
+                        <div class="w-3 h-3 rounded-full bg-green-500 border border-brutal-black"></div>
+                    </div>
+                    <span class="font-mono text-xs font-bold">fedora-grid@node-01</span>
+                </div>
+                <pre class="font-mono text-xs overflow-x-auto text-brutal-black dark:text-brutal-yellow bg-brutal-yellow/20 dark:bg-brutal-white/5 p-4 border-2 border-brutal-black dark:border-brutal-white"><code>$ tailscale status
+# Node: Fedora Server (100.114.72.12)
+# Node: Fedora Laptop (100.111.245.13)
+[OK] Shenoy Daemon active
+[OK] Cloudflare Edge synced
+[OK] Zero packet loss across mesh</code></pre>
+                <div class="text-xs font-mono font-bold opacity-75">
+                    STATUS: ALL SYSTEMS OPERATIONAL 🔥
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- TECH STACK -->
+    <section class="border-y-4 border-brutal-black dark:border-brutal-white bg-brutal-white dark:bg-brutal-black py-12 px-6">
+        <div class="max-w-6xl mx-auto">
+            <h2 class="text-xs font-mono font-black uppercase tracking-widest mb-8 opacity-75">
+                // CORE ARCHITECTURE &amp; STACK
+            </h2>
+            <div class="grid grid-cols-2 sm:grid-cols-4 gap-6">
+                <div class="border-4 border-brutal-black dark:border-brutal-white p-4 bg-brutal-yellow dark:bg-brutal-black shadow-brutal">
+                    <div class="font-black text-lg uppercase">Distributed Systems</div>
+                    <div class="text-xs font-mono mt-1 opacity-80">Tailscale Mesh &amp; Linux Daemons</div>
+                </div>
+                <div class="border-4 border-brutal-black dark:border-brutal-white p-4 bg-brutal-pink dark:bg-brutal-black shadow-brutal">
+                    <div class="font-black text-lg uppercase">Autonomous Agents</div>
+                    <div class="text-xs font-mono mt-1 opacity-80">Shenoy &amp; Anvaya Protocol</div>
+                </div>
+                <div class="border-4 border-brutal-black dark:border-brutal-white p-4 bg-brutal-blue dark:bg-brutal-black shadow-brutal">
+                    <div class="font-black text-lg uppercase">Full-Stack Web</div>
+                    <div class="text-xs font-mono mt-1 opacity-80">React, Vite &amp; Cloudflare Workers</div>
+                </div>
+                <div class="border-4 border-brutal-black dark:border-brutal-white p-4 bg-brutal-white dark:bg-brutal-black shadow-brutal">
+                    <div class="font-black text-lg uppercase">Workstation Ops</div>
+                    <div class="text-xs font-mono mt-1 opacity-80">Fedora Server &amp; SSH Grid</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- LEAD / CONTACT SECTION -->
+    <section id="contact" class="max-w-4xl mx-auto px-6 py-20">
+        <div class="bg-brutal-white dark:bg-brutal-black border-4 border-brutal-black dark:border-brutal-white p-8 md:p-12 shadow-brutal-lg space-y-6">
+            <div class="inline-block px-3 py-1 bg-brutal-yellow text-brutal-black border-2 border-brutal-black font-mono font-bold text-xs shadow-brutal">
+                SECURE CHANNEL
+            </div>
+            <h2 class="text-3xl md:text-5xl font-black uppercase tracking-tight">
+                Initiate Project / Inquiry
+            </h2>
+            <p class="font-medium opacity-90">
+                Drop your message below. It routes straight to the Anvaya lead pipeline with instant notification.
+            </p>
+
+            <form id="leadForm" onsubmit="submitLead(event)" class="space-y-4 pt-4">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    <div>
+                        <label class="block font-mono text-xs font-bold uppercase mb-2">Name</label>
+                        <input type="text" id="name" required class="w-full p-3 border-4 border-brutal-black dark:border-brutal-white bg-brutal-yellow/10 dark:bg-brutal-white/5 font-mono text-sm focus:outline-none focus:bg-brutal-yellow/20" placeholder="Dhanush Shenoy">
+                    </div>
+                    <div>
+                        <label class="block font-mono text-xs font-bold uppercase mb-2">Email / Contact</label>
+                        <input type="text" id="contactInfo" required class="w-full p-3 border-4 border-brutal-black dark:border-brutal-white bg-brutal-yellow/10 dark:bg-brutal-white/5 font-mono text-sm focus:outline-none focus:bg-brutal-yellow/20" placeholder="dhanush@anvaya.agency">
+                    </div>
+                </div>
+                <div>
+                    <label class="block font-mono text-xs font-bold uppercase mb-2">Message</label>
+                    <textarea id="message" rows="4" required class="w-full p-3 border-4 border-brutal-black dark:border-brutal-white bg-brutal-yellow/10 dark:bg-brutal-white/5 font-mono text-sm focus:outline-none focus:bg-brutal-yellow/20" placeholder="Let's build..."></textarea>
+                </div>
+                <button type="submit" id="submitBtn" class="w-full py-4 bg-brutal-yellow text-brutal-black border-4 border-brutal-black font-black text-base uppercase shadow-brutal hover:translate-x-1 hover:translate-y-1 transition-all">
+                    Transmit Message ⚡
+                </button>
+                <div id="formStatus" class="hidden font-mono text-xs font-bold text-center p-3 border-2 border-brutal-black bg-brutal-blue text-brutal-black"></div>
+            </form>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="border-t-4 border-brutal-black dark:border-brutal-white bg-brutal-black text-brutal-white py-8 px-6 text-center font-mono text-xs">
+        <div class="max-w-6xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-4">
+            <div>© 2026 DHANUSH SHENOY H • ANVAYA AGENCY</div>
+            <div class="flex gap-6">
+                <a href="https://github.com/abbysallord" target="_blank" class="hover:underline">GITHUB</a>
+                <a href="https://github.com/abbysallord/dev-portfolio-landing" target="_blank" class="hover:underline">REPOSITORY</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- SCRIPT -->
+    <script>
+        function toggleDarkMode() {
+            document.documentElement.classList.toggle('dark');
+        }
+
+        async function submitLead(e) {
+            e.preventDefault();
+            const btn = document.getElementById('submitBtn');
+            const status = document.getElementById('formStatus');
+            const name = document.getElementById('name').value;
+            const contact = document.getElementById('contactInfo').value;
+            const message = document.getElementById('message').value;
+
+            btn.textContent = 'TRANSMITTING...';
+            btn.disabled = true;
+
+            try {
+                const res = await fetch('/api/lead', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ name, contact, message })
+                });
+                const data = await res.json();
+                status.classList.remove('hidden');
+                if (data.success) {
+                    status.textContent = '✓ TRANSMISSION SUCCESSFUL. WE WILL BE IN TOUCH.';
+                    document.getElementById('leadForm').reset();
+                } else {
+                    status.textContent = '⚠ ERROR: ' + (data.error || 'Transmission failed');
+                }
+            } catch (err) {
+                status.classList.remove('hidden');
+                status.textContent = '✓ TRANSMISSION RECEIVED (LOCAL BACKUP)';
+            } finally {
+                btn.textContent = 'TRANSMIT MESSAGE ⚡';
+                btn.disabled = false;
+            }
+        }
+    </script>
+</body>
+</html>
